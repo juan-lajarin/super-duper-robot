@@ -1,11 +1,11 @@
 {
   "connection": {
     "silog_archive": {
-      "username": "silog_archive",
-      "password": "prodcons0207al90",
-	  "hostname": "slcpadb.seat.vwg",
+      "username": "username",
+      "password": "password",
+	  "hostname": "hostname",
 	  "port": "1521",
-	  "servicename": "SLCPRO",
+	  "servicename": "servicename",
       "query": [
         {
           "name": "SALIDAS_LL_",
@@ -18,11 +18,11 @@
       ]
     },
     "silog_wos": {
-      "username": "silog_wos",
-      "password": "silolo@19@",
-	  "hostname": "slcpadb.seat.vwg",
+      "username": "username",
+      "password": "password",
+	  "hostname": "hostname",
 	  "port": "1521",
-	  "servicename": "SLCPRO",
+	  "servicename": "servicename",
       "query": [
         {
           "name": "ARTICLE_",
