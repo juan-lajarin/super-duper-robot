@@ -1,0 +1,38 @@
+{
+  "connection": {
+    "silog_archive": {
+      "username": "silog_archive",
+      "password": "prodcons0207al90",
+	  "hostname": "slcpadb.seat.vwg",
+	  "port": "1521",
+	  "servicename": "SLCPRO",
+      "query": [
+        {
+          "name": "SALIDAS_LL_",
+          "sql": "select * from arc_loadunit_order where loadunit_id='2113135'"
+        },
+        {
+          "name": "SALIDAS_TR_",
+          "sql": "select * from arc_loadunit_order where loadunit_id='2113135'"
+        }
+      ]
+    },
+    "silog_wos": {
+      "username": "silog_wos",
+      "password": "silolo@19@",
+	  "hostname": "slcpadb.seat.vwg",
+	  "port": "1521",
+	  "servicename": "SLCPRO",
+      "query": [
+        {
+          "name": "ARTICLE_",
+          "sql": "select * from article where article_number like 'SPPAL%'"
+        },
+        {
+          "name": "MATERIAL_",
+          "sql": "select * from article where article_number like 'SPPAL%'"
+        }
+      ]
+    }
+  }
+}
